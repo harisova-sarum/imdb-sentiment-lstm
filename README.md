@@ -13,8 +13,11 @@
 
 ## Архитектура
 Embedding(28771 → 100, padding_idx=0)
+
 LSTM(100 → 128, batch_first=True)
+
 Dropout(0.3)
+
 Linear(128 → 1)
 
 Embedding обучается с нуля вместе со всей сетью.
